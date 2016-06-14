@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38128BB71D1023B000EDA11D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38128BB61D1023B000EDA11D /* main.m */; };
+		38128BBA1D1023B000EDA11D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38128BB91D1023B000EDA11D /* AppDelegate.m */; };
+		38128BBD1D1023B000EDA11D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38128BBC1D1023B000EDA11D /* ViewController.m */; };
+		38128BC01D1023B000EDA11D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38128BBE1D1023B000EDA11D /* Main.storyboard */; };
+		38128BC21D1023B000EDA11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38128BC11D1023B000EDA11D /* Assets.xcassets */; };
+		38128BC51D1023B000EDA11D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38128BC31D1023B000EDA11D /* LaunchScreen.storyboard */; };
+		38128BD01D1023B000EDA11D /* AddressChooseToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38128BCF1D1023B000EDA11D /* AddressChooseToolTests.m */; };
+		38128BDB1D1023B000EDA11D /* AddressChooseToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38128BDA1D1023B000EDA11D /* AddressChooseToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38128BCC1D1023B000EDA11D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38128BAA1D1023B000EDA11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38128BB11D1023B000EDA11D;
+			remoteInfo = AddressChooseTool;
+		};
+		38128BD71D1023B000EDA11D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38128BAA1D1023B000EDA11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38128BB11D1023B000EDA11D;
+			remoteInfo = AddressChooseTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38128BB21D1023B000EDA11D /* AddressChooseTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressChooseTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38128BB61D1023B000EDA11D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38128BB81D1023B000EDA11D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38128BB91D1023B000EDA11D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38128BBB1D1023B000EDA11D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38128BBC1D1023B000EDA11D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38128BBF1D1023B000EDA11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38128BC11D1023B000EDA11D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38128BC41D1023B000EDA11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38128BC61D1023B000EDA11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38128BCB1D1023B000EDA11D /* AddressChooseToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressChooseToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38128BCF1D1023B000EDA11D /* AddressChooseToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressChooseToolTests.m; sourceTree = "<group>"; };
+		38128BD11D1023B000EDA11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38128BD61D1023B000EDA11D /* AddressChooseToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressChooseToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38128BDA1D1023B000EDA11D /* AddressChooseToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressChooseToolUITests.m; sourceTree = "<group>"; };
+		38128BDC1D1023B000EDA11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38128BAF1D1023B000EDA11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38128BC81D1023B000EDA11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38128BD31D1023B000EDA11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38128BA91D1023B000EDA11D = {
+			isa = PBXGroup;
+			children = (
+				38128BB41D1023B000EDA11D /* AddressChooseTool */,
+				38128BCE1D1023B000EDA11D /* AddressChooseToolTests */,
+				38128BD91D1023B000EDA11D /* AddressChooseToolUITests */,
+				38128BB31D1023B000EDA11D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38128BB31D1023B000EDA11D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38128BB21D1023B000EDA11D /* AddressChooseTool.app */,
+				38128BCB1D1023B000EDA11D /* AddressChooseToolTests.xctest */,
+				38128BD61D1023B000EDA11D /* AddressChooseToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38128BB41D1023B000EDA11D /* AddressChooseTool */ = {
+			isa = PBXGroup;
+			children = (
+				38128BB81D1023B000EDA11D /* AppDelegate.h */,
+				38128BB91D1023B000EDA11D /* AppDelegate.m */,
+				38128BBB1D1023B000EDA11D /* ViewController.h */,
+				38128BBC1D1023B000EDA11D /* ViewController.m */,
+				38128BBE1D1023B000EDA11D /* Main.storyboard */,
+				38128BC11D1023B000EDA11D /* Assets.xcassets */,
+				38128BC31D1023B000EDA11D /* LaunchScreen.storyboard */,
+				38128BC61D1023B000EDA11D /* Info.plist */,
+				38128BB51D1023B000EDA11D /* Supporting Files */,
+			);
+			path = AddressChooseTool;
+			sourceTree = "<group>";
+		};
+		38128BB51D1023B000EDA11D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38128BB61D1023B000EDA11D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38128BCE1D1023B000EDA11D /* AddressChooseToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				38128BCF1D1023B000EDA11D /* AddressChooseToolTests.m */,
+				38128BD11D1023B000EDA11D /* Info.plist */,
+			);
+			path = AddressChooseToolTests;
+			sourceTree = "<group>";
+		};
+		38128BD91D1023B000EDA11D /* AddressChooseToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38128BDA1D1023B000EDA11D /* AddressChooseToolUITests.m */,
+				38128BDC1D1023B000EDA11D /* Info.plist */,
+			);
+			path = AddressChooseToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38128BB11D1023B000EDA11D /* AddressChooseTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38128BDF1D1023B000EDA11D /* Build configuration list for PBXNativeTarget "AddressChooseTool" */;
+			buildPhases = (
+				38128BAE1D1023B000EDA11D /* Sources */,
+				38128BAF1D1023B000EDA11D /* Frameworks */,
+				38128BB01D1023B000EDA11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressChooseTool;
+			productName = AddressChooseTool;
+			productReference = 38128BB21D1023B000EDA11D /* AddressChooseTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38128BCA1D1023B000EDA11D /* AddressChooseToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38128BE21D1023B000EDA11D /* Build configuration list for PBXNativeTarget "AddressChooseToolTests" */;
+			buildPhases = (
+				38128BC71D1023B000EDA11D /* Sources */,
+				38128BC81D1023B000EDA11D /* Frameworks */,
+				38128BC91D1023B000EDA11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38128BCD1D1023B000EDA11D /* PBXTargetDependency */,
+			);
+			name = AddressChooseToolTests;
+			productName = AddressChooseToolTests;
+			productReference = 38128BCB1D1023B000EDA11D /* AddressChooseToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38128BD51D1023B000EDA11D /* AddressChooseToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38128BE51D1023B000EDA11D /* Build configuration list for PBXNativeTarget "AddressChooseToolUITests" */;
+			buildPhases = (
+				38128BD21D1023B000EDA11D /* Sources */,
+				38128BD31D1023B000EDA11D /* Frameworks */,
+				38128BD41D1023B000EDA11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38128BD81D1023B000EDA11D /* PBXTargetDependency */,
+			);
+			name = AddressChooseToolUITests;
+			productName = AddressChooseToolUITests;
+			productReference = 38128BD61D1023B000EDA11D /* AddressChooseToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38128BAA1D1023B000EDA11D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZLCoder;
+				TargetAttributes = {
+					38128BB11D1023B000EDA11D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					38128BCA1D1023B000EDA11D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 38128BB11D1023B000EDA11D;
+					};
+					38128BD51D1023B000EDA11D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 38128BB11D1023B000EDA11D;
+					};
+				};
+			};
+			buildConfigurationList = 38128BAD1D1023B000EDA11D /* Build configuration list for PBXProject "AddressChooseTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38128BA91D1023B000EDA11D;
+			productRefGroup = 38128BB31D1023B000EDA11D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38128BB11D1023B000EDA11D /* AddressChooseTool */,
+				38128BCA1D1023B000EDA11D /* AddressChooseToolTests */,
+				38128BD51D1023B000EDA11D /* AddressChooseToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38128BB01D1023B000EDA11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38128BC51D1023B000EDA11D /* LaunchScreen.storyboard in Resources */,
+				38128BC21D1023B000EDA11D /* Assets.xcassets in Resources */,
+				38128BC01D1023B000EDA11D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38128BC91D1023B000EDA11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38128BD41D1023B000EDA11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38128BAE1D1023B000EDA11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38128BBD1D1023B000EDA11D /* ViewController.m in Sources */,
+				38128BBA1D1023B000EDA11D /* AppDelegate.m in Sources */,
+				38128BB71D1023B000EDA11D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38128BC71D1023B000EDA11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38128BD01D1023B000EDA11D /* AddressChooseToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38128BD21D1023B000EDA11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38128BDB1D1023B000EDA11D /* AddressChooseToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38128BCD1D1023B000EDA11D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38128BB11D1023B000EDA11D /* AddressChooseTool */;
+			targetProxy = 38128BCC1D1023B000EDA11D /* PBXContainerItemProxy */;
+		};
+		38128BD81D1023B000EDA11D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38128BB11D1023B000EDA11D /* AddressChooseTool */;
+			targetProxy = 38128BD71D1023B000EDA11D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38128BBE1D1023B000EDA11D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38128BBF1D1023B000EDA11D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38128BC31D1023B000EDA11D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38128BC41D1023B000EDA11D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38128BDD1D1023B000EDA11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38128BDE1D1023B000EDA11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38128BE01D1023B000EDA11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddressChooseTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZL.coder.AddressChooseTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38128BE11D1023B000EDA11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddressChooseTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZL.coder.AddressChooseTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38128BE31D1023B000EDA11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressChooseToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZL.coder.AddressChooseToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressChooseTool.app/AddressChooseTool";
+			};
+			name = Debug;
+		};
+		38128BE41D1023B000EDA11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressChooseToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZL.coder.AddressChooseToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressChooseTool.app/AddressChooseTool";
+			};
+			name = Release;
+		};
+		38128BE61D1023B000EDA11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddressChooseToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZL.coder.AddressChooseToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddressChooseTool;
+			};
+			name = Debug;
+		};
+		38128BE71D1023B000EDA11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddressChooseToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZL.coder.AddressChooseToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddressChooseTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38128BAD1D1023B000EDA11D /* Build configuration list for PBXProject "AddressChooseTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38128BDD1D1023B000EDA11D /* Debug */,
+				38128BDE1D1023B000EDA11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38128BDF1D1023B000EDA11D /* Build configuration list for PBXNativeTarget "AddressChooseTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38128BE01D1023B000EDA11D /* Debug */,
+				38128BE11D1023B000EDA11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38128BE21D1023B000EDA11D /* Build configuration list for PBXNativeTarget "AddressChooseToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38128BE31D1023B000EDA11D /* Debug */,
+				38128BE41D1023B000EDA11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38128BE51D1023B000EDA11D /* Build configuration list for PBXNativeTarget "AddressChooseToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38128BE61D1023B000EDA11D /* Debug */,
+				38128BE71D1023B000EDA11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38128BAA1D1023B000EDA11D /* Project object */;
+}
